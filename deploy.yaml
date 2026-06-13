@@ -16,8 +16,6 @@ spec:
     spec:
       containers:
       - name: dissonance
-        image: xmondo/melondust:dream-cluster-image-v1
+        image: xlabs.xmondo.com:31005/xmondo/melondust:dream-cluster-image-v3
         ports:
         - containerPort: 80
-      imagePullSecrets:
-      - name: regcred
