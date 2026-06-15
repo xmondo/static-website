@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: dissonance
-        image: xlabs.xmondo.com:31005/xmondo/melondust:dream-cluster-image-v3
+        image: physis.xmondo.com:31005/xmondo/melondust:dream-cluster-image-v3
         ports:
         - containerPort: 80
